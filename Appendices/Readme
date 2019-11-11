@@ -1,0 +1,18 @@
+APPENDIX A:
+- run AppA_FacilityLocation_Table10.m- Import the data from the facilityLocY.csv file in Excel file FacilityLocEx_Table.xlsx (in "Raw" sheet) to generate Table 10
+
+APPENDIX B
+- run AppB_MultiProdAssembly_Ex.m
+
+APPENDIX D
+- Run AppD_SurgeryBlockAllocation.m
+
+
+APPENDIX F
+- Run AppF_MultiItem_Ex.m
+
+
+OTHER FILES:
+getMaxU.m : solves problem (17) to get tightest values for penalty vector "u"
+
+
