@@ -8,7 +8,10 @@ It contains three folders: "Section5" includes the nemerical study of Section 5 
 To implement the repository, the following software are required:
 
 Matlab: it is the main platform of this repository
+
 YALMIP: it is used as mathematical programming language (more detail: https://yalmip.github.io/)
+
 CPLEX: it is required for solving linear programming and mixed-integer linear programming
+
 MOSEK: it is required for solving for semi-definite programming
 
