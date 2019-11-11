@@ -1,4 +1,3 @@
-d# Linearized Robust Counterpart
 This repository includes data sets and codes used in the following paper:
 
 Ardestani-Jaafari, Amir, and Erick Delage. Linearized robust counterparts of two-stage robust optimization problems with applications in operations management. GERAD, École des hautes études commerciales, 2016.
