@@ -1,0 +1,38 @@
+# Section 5
+Instructions on how to produce the tables from Section 5.
+
+# Tables 2 and 3:
+- Run performTables2and3Tests.m
+
+# Tables 4 and 5:
+- Run performTables4and5Tests.m
+
+# Table 6:
+- Run performTable6.m
+
+# Table 7:
+- Run the commands in performTable7.m
+- Import the data from the InputDataTables7and8.mat file
+
+# Details about folders:
+./resultsTables2and3: contains results generated to produce Tables 2 and 3
+
+./resultsTables4and5: contains results generated to produce Tables 4 and 5
+
+./resultsTable6: contains results generated to produce Table 6
+
+./resultsTable7: contains results generated to produce Table 7
+
+./resultsTable8: contains results generated to produce Table 8
+
+# Other files:
+
+AARC.m : Run the robust counterpart of AARC model
+
+ELAARC.m : Run the robust counterpart of ELAARC model
+
+MLRC.m : Run the robust counterpart of MLRC model
+
+CCG.m : Run the exact algorithm columns-and-constraint generation (C&CG)
+
+Decomposition_algorithm.m : Run the decomposition algorithm
