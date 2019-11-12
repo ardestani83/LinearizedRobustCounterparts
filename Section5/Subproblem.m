@@ -1,5 +1,5 @@
 function [tau,theta,lambda,lambda_delta,delta,psi,theta_delta]=Subproblem(I,J,eta,D_bar,D_hat,Z0,Gamma,Method,u1,u2)
-Z0=0.5*Z0.*(abs(sign(Z0))+sign(Z0));
+Z0=max(Z0,zeros(I,1));
 delta= sdpvar(J,1,'full');
 delta_delta= sdpvar(J,J,'full') ;
 

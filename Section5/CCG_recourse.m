@@ -1,5 +1,5 @@
 function [beta,gama,Delta,delta]=CCG_recourse(I,J,eta,D_bar,D_hat,Gamma,Z0,u1)
-Z0=0.5*Z0.*(abs(sign(Z0))+sign(Z0));
+Z0=max(Z0,zeros(I,1));
 beta= sdpvar(J,1,'full');
 Delta= sdpvar(J,1,'full');
 gama= sdpvar(I,1,'full');

@@ -1,5 +1,5 @@
 function [tau,theta,lambda,lambda_delta,delta,psi,theta_delta]=Subproblem_SDP(m,n,eta,D_bar,D_hat,x,Gamma,u1,u2,Method)
-x=0.5*x.*(abs(sign(x))+sign(x));
+x=max(x,zeros(m,1));
 cx = 0;
 d = eta(:);
 P = [-eye(n); eye(n); ones(1,n)];

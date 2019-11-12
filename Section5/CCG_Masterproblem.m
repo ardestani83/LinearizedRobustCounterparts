@@ -1,7 +1,4 @@
 function [Z0_master,v_master,tau_master]=CCG_Masterproblem(I,J,eta,c,K,D_bar,D_hat,M,delta_pool,count)
-rome_begin;
-L = rome_model;
-
 Z0= sdpvar(I,1,'full');
 Y= sdpvar(I,J,count+1,'full');
 v= binvar(I,1,'full');
