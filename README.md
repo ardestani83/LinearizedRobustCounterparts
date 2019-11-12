@@ -11,6 +11,7 @@ Matlab: it is the main platform of this repository (see https://www.mathworks.co
 YALMIP: it is used as a mathematical programming language (more detail: https://yalmip.github.io/)
 
 ROME : it is used to implement some of the robust optimization models (see: https://robustopt.com/)
+*: There is an error in using ROME in the recent versions of matlab. It can be fixed as replacing rome_var.m file in ROME package with the availabel rome_var.m file in the repository.
 
 CPLEX: it is required for solving linear programming and mixed-integer linear programming (see http://cplex.com)
 
