@@ -6,10 +6,12 @@ It contains three folders: "Section5" includes the Matlab code used for the nume
 
 Implementing the repository requires the following software:
 
-Matlab: it is the main platform of this repository
+Matlab: it is the main platform of this repository (see https://www.mathworks.com/products/matlab.html)
 
 YALMIP: it is used as a mathematical programming language (more detail: https://yalmip.github.io/)
 
-CPLEX: it is required for solving linear programming and mixed-integer linear programming
+ROME : it is used to implement some of the robust optimization models (see: https://robustopt.com/)
 
-MOSEK: it is required for solving for semi-definite programming
+CPLEX: it is required for solving linear programming and mixed-integer linear programming (see http://cplex.com)
+
+MOSEK: it is required for solving for semi-definite programming (see https://www.mosek.com/)
